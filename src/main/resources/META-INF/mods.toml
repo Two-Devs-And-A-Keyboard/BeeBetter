@@ -21,7 +21,7 @@ displayName="BeeBetter!" #mandatory
 ## !!!!!!!!!!!!!!!!DONT HAVE ONE YET BUT WANT TO
 ####updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/Two-Devs-And-A-Keyboard/BeeBetter/"" #optional
+displayURL="https://github.com/Two-Devs-And-A-Keyboard/BeeBetter/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
