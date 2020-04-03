@@ -1,4 +1,4 @@
-package mero.tutourialmod;
+package com.twodevsandakeyboard.beebetter;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,15 +9,15 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod("merotutorialmod")
-public class TutorialMod {
+@Mod("beebetter")
+public class BeeBetter {
 	
-	public static TutorialMod instance;
-	public static final String modid = "merotutorialmod";
+	public static BeeBetter instance;
+	public static final String modid = "beebetter";
 	
 	private static final Logger logger = LogManager.getLogger(modid);
 	
-	public TutorialMod() {
+	public BeeBetter() {
 		instance = null;
 		// TODO Auto-generated constructor stub
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
